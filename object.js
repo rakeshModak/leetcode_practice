@@ -25,6 +25,10 @@ function test(x, y) {
 // }
 // return y.map(i => obj[i])
 
+// let obj = {};
+// x.map(i => obj[i.a] = i.b)
+// return y.map(i => obj[i])
+
 let obj = {};
 x.map(i => obj[i.a] = i.b)
 return y.map(i => obj[i])
